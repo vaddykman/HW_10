@@ -1,0 +1,55 @@
+    1  git config --global user.name
+    2  git config --global user.name "Vadym Dykman"
+    3  git config --global user.email "helterskelter672@gmail.com"
+    4  git clone https://github.com/vaddykman/HW_10.git
+    5  ls
+    6  clear
+    7  cd HW_10
+    8  git status
+    9  touch text_ignore.txt
+   10  git status
+   11  echo "text_ignore.txt" >> .gitignore
+   12  cat .gitignore
+   13  git status
+   14  cat .gitignore
+   15  nano .gitignore
+   16  cat .gitignore
+   17  git status
+   18  git add.
+   19  add
+   20  git add .
+   21  git commit
+   22  св
+   23  ls
+   24  cd Desktop/GoIT/HomeWorks/GitRepo
+   25  ls
+   26  cd HW_10
+   27  git add .
+   28  git commit -m "file added to gitignore"
+   29  cat .gitignore
+   30  git status
+   31  git log
+   32  ls
+   33  pwd
+   34  touch main_test.txt
+   35  git status
+   36  git add .
+   37  git commit -m "added file"
+   38  git log
+   39  git checkout -b develop
+   40  git checkout develop
+   41  touch develop_test.txt
+   42  git add .
+   43  git commit -m "added new file to develop branch"
+   44  nano develop_test.txt
+   45  git status
+   46  cat. develop_test.txt
+   47  cat develop_test.txt
+   48  git add .
+   49  git commit -m "file edited"
+   50  git log
+   51  checkout main
+   52  git checkout main
+   53  git merge develop
+   54  git log
+   55  history > command_list.csv
